@@ -1,0 +1,27 @@
+Settings
+input_channels: 3
+num_classes: 10
+conv_channels: [16, 32]
+kernel_size: 3
+padding: 1
+stride: 1
+pool_type: max
+hidden_size: 128
+learning_rate: 0.001
+max_epoch: 10
+batch_size: 128
+optimizer: adam
+loss: cross_entropy
+pooled_size: 4
+dataset: CIFAR
+seed: 2
+offset: 0
+
+Test scores
+accuracy: 0.643900
+precision_macro: 0.643251
+recall_macro: 0.643900
+f1_macro: 0.638605
+precision_weighted: 0.643251
+recall_weighted: 0.643900
+f1_weighted: 0.638605

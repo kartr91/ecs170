@@ -1,0 +1,20 @@
+Settings
+input_size: 784
+hidden_sizes: [128]
+output_size: 10
+learning_rate: 0.001
+max_epoch: 10
+batch_size: 128
+optimizer: adam
+loss: CrossEntropyLoss
+device: cpu
+seed: 2
+
+Test scores
+accuracy: 0.976200
+precision_macro: 0.976142
+recall_macro: 0.976042
+f1_macro: 0.975999
+precision_weighted: 0.976373
+recall_weighted: 0.976200
+f1_weighted: 0.976196

@@ -1,0 +1,37 @@
+# Local editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+.pytest_cache/
+.test_dependencies/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large downloaded datasets/embeddings remain local. Keep their instructions,
+# supplied loading script, and the small Stage 1 example dataset in the repo.
+/data/**
+!/data/**/
+!/data/**/README
+!/data/**/readme
+!/data/**/ReadMe.txt
+!/data/**/ReadMe.docx
+!/data/**/ReadMe.pdf
+!/data/**/*.py
+!/data/stage_1_data/toy_data_file.txt
+
+# Trained weights and temporary validation runs
+*.pt
+*.pth
+validation_runs*/
